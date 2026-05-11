@@ -1,0 +1,15 @@
+.listaProductos li{
+  display: inline-block;
+}
+
+.imagenProducto {
+    max-width: 150px;
+    height: auto;
+}
+
+.descripcionProducto {
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--oscuro);
+    text-align: center;
+}

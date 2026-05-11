@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos</title>
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/formularioscss">
+</head>
+<body>
+
+<header>    
+    <nav>
+   <ul>
+         <li><a href="index.html" class="botonNavegacion">Inicio</a></li>
+         <li><a href="sobreNosotros.html" class="botonNavegacion">Sobre Nosotros</a></li>
+         <li><a href="contactanos.html" class="botonNavegacion">Contáctanos</a></li>
+         <li><a href="trabajaConNosotros.html" class="botonNavegacion">Trabaja con nosotros</a></li>
+         <li><a href="login.html" class="botonNavegacion">Ingresar</a></li>
+         <li><a href="testimonios.html" class="botonNavegacion">Testimonios</a></li>
+         <li><a href="catalogo.html" class="botonNavegacion">Catálogo</a></li>
+     </ul>
+    </nav>
+
+    <h2>Consulta</h2>
+</header>        
+<button onclick="toggleInfo()">Contactos</button>
+
+        <section class="cont" style="display: none; margin-top: 10px;">
+            <h4>Números telefónicos: </h4>
+            <p>WhatsApp: +598 9532 4444</p>
+            <p>Teléfono fijo: 4567 7373</p>
+            <h4>Correos Electrónicos: </h4>
+            <p>General: todoenblanco@gmail.com</p>
+            <p>Trabajos: cvtodoenblanco@gmail.com</p>
+            <p>Clientes: clientestodoenblanco@gmail.com</p>
+            <br>
+        </section>
+           <br>
+<section class="contenedorClass">
+<form class="Formularioconsulta">
+
+    Nombre:
+    <input type="text" required><br><br>
+
+    Apellido:
+    <input type="text" required><br><br>
+
+    Teléfono:
+    <input type="tel" pattern="[0-9]{9}" required><br><br>
+
+    Correo:
+    <input type="email" required><br><br>
+
+    Descripción:
+    <textarea required></textarea><br><br>
+
+    Tipo de consulta:
+    <select required>
+        <option value="">Seleccione una opción</option>
+        <option>Catálogo</option>
+        <option>Repuestos</option>
+        <option>Desperfectos</option>
+    </select><br><br>
+
+    <button type="submit">Enviar Consulta</button>
+  </form>
+</section>
+
+<section class="mensajeExito" style="display: none;">
+  <h2>¡Gracias por contactarte!</h2>
+  <p>Tu consulta ha sido enviada con éxito. En breve nos comunicaremos contigo.</p>
+  <a href="index.html" class="boton-inicio">Volver al Inicio</a>
+</section>
+
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+.contenedorFormularioCV {
+    color: var(--oscuro);
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+}
+
+.contenedorFormularioCV h2,
+.contenedorFormularioCV legend {
+    color: var(--oscuro);
+    font-weight: 700;
+}
+
+.contenedorFormularioCV label {
+    color: var(--oscuro);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.contenedorFormularioCV input,
+.contenedorFormularioCV textarea,
+.contenedorFormularioCV select {
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+    color: var(--oscuro);
+    width: 100%;
+    max-width: 500px;
+}
+
+.contenedorFormularioCV option {
+    color: var(--oscuro);
+}
+
+.contenedorFormularioCV textarea {
+    min-height: 120px;
+}
+
+.contenedorFormularioCV input:focus,
+.contenedorFormularioCV textarea:focus,
+.contenedorFormularioCV select:focus {
+    background-color: var(--grisClaro);
+    color: var(--oscuro);
+}
+
+.contenedorFormularioCV button {
+    background-color: var(--oscuro);
+    color: var(--blancoCristal);
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.contenedorFormularioCV button:hover,
+.contenedorFormularioCV button:focus {
+    background-color: var(--amarillo);
+    color: var(--oscuro);
+}
+
+.contenedorFormularioCV button:active {
+    background-color: var(--medio);
+    color: var(--medio);
+}

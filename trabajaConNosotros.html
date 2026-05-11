@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Trabaja con Nosotros</title>
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/formularios.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Buscamos empleados!!!</h1>
+    <img src="assets/img/Gemini_Generated_Image_je3w55je3w55je3w.png" alt="Trabaja con Nosotros" class="logo" width="300">
+    <nav>
+        <ul>
+         <li><a href="index.html" class="botonNavegacion">Inicio</a></li>
+         <li><a href="sobreNosotros.html" class="botonNavegacion">Sobre Nosotros</a></li>
+         <li><a href="contactanos.html" class="botonNavegacion">Contáctanos</a></li>
+         <li><a href="trabajaConNosotros.html" class="botonNavegacion">Trabaja con nosotros</a></li>
+         <li><a href="login.html" class="botonNavegacion">Ingresar</a></li>
+         <li><a href="testimonios.html" class="botonNavegacion">Testimonios</a></li>
+        </ul>
+    </nav>
+</header>
+<section class="requisitos">
+<h2>Requisitos</h2>
+<ul>
+    <li>Tener experiencia en el área de ventas</li>
+    <li>Ser comunicativo y tener buena presencia</li>
+    <li>Ser mayor de 18 años</li>
+    <li>Se valora tener contactos de referencia en el rubro</li>
+</ul>
+</section>
+
+<section class="contenedorFormularioCV"></section>
+    <h2>Solicitud de Trabajo</h2>
+
+    <form enctype="multipart/form-data" id="Formulariocv">
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" placeholder="Ej: juan@mail.com" required><br><br>
+
+        <label for="mensaje">Cuéntanos sobre ti:</label>
+        <textarea id="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea><br><br>
+
+        <label for="cedula">C.I:</label>
+        <input type="number" id="cedula" min="10000000" placeholder="Ej: 12345678" required><br><br>
+
+        <label for="archivoCV">Adjuntar CV (PDF máximo 5mb):</label>
+        <input type="file" id="archivoCV" accept=".pdf" required><br><br>
+
+        <input type="checkbox" required>
+        <label for="checkbox1"></label>Mi curriculum incluye estudios y referencias</label><br><br>
+
+        <input type="checkbox" required>
+        <label for="checkbox2"></label>Acepto que me contacten para futuras oportunidades</label><br><br>
+
+    <button type="submit">Enviar</button>
+</form>
+</section>
+
+<section class="mensajeExitoCV" style="display: none;">
+  <h2>¡Gracias por contactarte!</h2>
+  <p>Tu solicitud de trabajo ha sido enviada con éxito. En breve nos comunicaremos contigo.</p>
+  <a href="index.html" class="boton-inicio">Volver al Inicio</a>
+</section>
+
+</body>
+</html

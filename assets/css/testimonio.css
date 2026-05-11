@@ -1,0 +1,11 @@
+.testimonios blockquote {
+    color: var(--medio);
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.testimonios figure {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
