@@ -95,6 +95,12 @@
 
 # Flexbox
 
+## <display: flex;>
+-Descripción: Transforma un elemento normal en uno maleable.
+
+## <justify-content: flex-start>
+-Descripción: Alineación al inicio del eje horizontal.
+
 ## <justify-content: flex-end;>
 -Descripción: Alineación al final del eje horizontal.
 
@@ -107,6 +113,9 @@
 ## <justify-content: space-between;>
 -Descripción: Espacio máximo entre los elementos epujando los bordes.
 
+## <align-items: flex-start;>
+-Descripción: Alineación al inicio del eje vertical.
+
 ## <align-items: flex-end;>
 -Descripción: Alineación al fondo del eje vertical.
 
@@ -115,6 +124,9 @@
 
 ## <align-items: center;>
 -Descripción: Centro absoluto vertical.
+
+## <flex-direction: row;>
+-Descripción: Ordena en fila.
 
 ## <flex-direction: row-reverse;>
 -Descripción: Invierte el orden de la fila.
@@ -238,7 +250,7 @@ Los píxeles son los más usados para páginas webs y los centímetros se suelen
 ## Unidades Relativas
 No tienen un valor fijo. Su tamaño depende de otro factor, como el tamaño del texto del navegador, el tamaño del elemento contenedor o las dimensiones de la pantalla.
 
-#### Ej: rem/em/%/vw/vh,.
+#### Ej: rem/em/%/vw/vh.
 Rem: es relativa al tamaño de fuente del elemento raíz (html). Por defecto, la mayoría de los navegadores web tienen una raíz de 16px, por lo que 1rem equivale a 16px                      
 
 ##### -(Suele ser usado para textos).

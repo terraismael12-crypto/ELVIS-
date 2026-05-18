@@ -1,15 +1,18 @@
-.listaProductos li{
-  display: inline-block;
+.listaProductos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    
 }
 
-.imagenProducto {
+#.imagenProducto {
     max-width: 150px;
     height: auto;
 }
 
-.descripcionProducto {
+#.descripcionProducto {
     margin-top: 10px;
     font-size: 14px;
     color: var(--oscuro);
-    text-align: center;
 }
