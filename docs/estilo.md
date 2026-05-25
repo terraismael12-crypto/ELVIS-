@@ -268,3 +268,123 @@ Vm: es relativa al ancho de la pantalla de visualización. 100vw equivale exacta
 Vh: es relativa al alto de la pantalla de visualización. 100vh equivale exactamente al 100% de la altura de la ventana.
 
 ##### -(Vm y Vh suelen usarse en pantallas de inicio para que ocupe todo sin importar la pantalla).
+
+
+---
+# Responsive y posicionamiento
+
+## @media
+Permite aplicar estilos específicos dependiendo del tamaño de la pantalla.
+Se va a utilizar para adaptar para dispositivos moviles con un ancho menor a 480px
+
+### Ej: @media screen and (max-widht: 480px)
+
+## display
+Define cómo se va a ver un elemento en la página
+
+Valores: 
+         
+         flex: organiza elementos de forma flexible
+
+         block: muestra elementos ocupando toda la línea
+         
+         none: oculta elementos
+
+
+## flex-direction
+Define la dirección de los elementos dentro de un contenedor flex
+
+Lo voy a utilizar con: 
+         
+         row: elementos en fila
+
+         column: elementos en columna
+
+Me va a ser útil para el menú responsive
+
+
+## position
+Controla el tipo de posicionamiento de un elemento.
+
+Valores: 
+         
+         fixed: Mantiene el elemento fijo en la pantalla aunque el usuario
+                haga scroll.
+
+        absolute: Permite posicionar elementos respecto a su contenedor.
+
+También me va a ser útil para el menú responsive.
+
+## top, bottom, left, right
+Para posicionar elementos cuando use position.
+
+### Ej: bottom: 20px, right: 20px
+
+## transform
+Permite modificar visualmente elementos.
+
+Se utilizará:  transform: translate(-50%, -50%);
+
+para centrar el formulario.
+
+## widht y height
+Medio boludo, pero definen ancho y alto de los elementos.
+
+Van a ser utilizados para adaptar imágenes, botones y contenedores a distintos tamaños de pantalla
+
+## padding
+Genera espacio interno entre el contenido y el borde del elemento.
+
+Se va a utilizar para mejorar la separación visual y la legibilidad.
+
+## margin
+Genera espacio externo entre elementos.
+
+Ayuda a ordenar la distribución visual de la página.
+
+## border-radius
+Permite redondear bordes.
+
+
+Se va a utilizar principalmente en: 
+       
+       Botones
+
+       Formulario emergente
+
+       botón de volver arriba.
+
+
+## z-index
+Controla qué elementos se muestran por encima de otros.
+
+Va a ser utilizado en el formulario emergente para que aparezca que sobre el resto de contenido
+
+## text-decoration
+Permite modificar decoraciones del texto.
+
+Se va a utilizar para quitar el subrayado de enlaces.
+
+### Ej: text-decoration: none;
+
+
+## justify-content
+Permite alinear elementos horizontataramente dentro de un contenedor flex.
+
+## allign-items
+Permite alineear elementos verticalmente dentro de un contenedor flex.
+
+## font-size
+Define el tamaño del texto.
+
+Va a ser utilizado para adaptar la lectura en dispositivos móviles.
+
+ 
+
+
+    
+        
+
+
+
+                
